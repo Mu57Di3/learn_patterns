@@ -1,0 +1,13 @@
+@startuml
+hide empty description
+
+
+State1 --> State2
+State1 : Телефон выключен.
+
+State2 --> State3
+State2 : Телефон включен, но экран выключен
+
+State3: Телефон включен и экран тоже
+
+@enduml
